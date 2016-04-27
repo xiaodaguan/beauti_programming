@@ -4,6 +4,7 @@ import sun.text.normalizer.UnicodeSet;
 
 /**
  * Created by guanxiaoda on 16/4/19.
+ * 字符串中字母是否只出现一次(是否存在重复出现的字符)
  * 相关:
  * 常见字符集&编码:ascii, gb2312, big5, gb18030, unicode
  * ascii: 256个拉丁字母\阿拉伯数字\英文标点
