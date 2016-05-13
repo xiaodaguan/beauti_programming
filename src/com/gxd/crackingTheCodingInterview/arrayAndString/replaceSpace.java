@@ -2,7 +2,8 @@ package com.gxd.crackingTheCodingInterview.arrayAndString;
 
 /**
  * Created by guanxiaoda on 16/4/27.
- * ½«×Ö·û´®ÖĞ¿Õ¸ñÌæ»»Îª%20
+ * ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ğ¿Õ¸ï¿½ï¿½æ»»Îª%20
+ * todo ä¸ºä»€ä¹ˆä¸€å®šè¦ä»åå‘å‰?æ˜¯å¦å¯ä»¥ä»å‰å‘å
  */
 public class replaceSpace {
 
@@ -31,7 +32,7 @@ public class replaceSpace {
 
     public static void main(String[] args) {
         System.out.println(replaceSpace("fjiq jdkalg jklsa ll"));
-        System.out.println(replaceSpace("ÎÒÃÇ¶¼ÊÇ ²»ºÃËµ..."));
+        System.out.println(replaceSpace("ï¿½ï¿½ï¿½Ç¶ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ëµ..."));
         System.out.println(replaceSpace("guanxiaoda.cn"));
         System.out.println(replaceSpace(""));
         System.out.println(replaceSpace(null));
