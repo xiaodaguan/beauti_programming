@@ -30,11 +30,13 @@ package com.gxd.crackingTheCodingInterview.arrayAndString;
  * <p/>
  * <!--感觉这个题很烧脑..虽然最终独立完成了,耗费了n张纸,n多时间-->
  */
-public class rotateMatrix {
+public class RotateMatrix {
 
-    /**
-     *
-     */
+    private int[][] MATRIX;
+    private int N;
+
+
+
     private void rotateWithoutExtraSpace() {
         for (int layer = 0; layer < this.N / 2; layer++) {
             for (int offset = layer; offset <= this.N - 2 - layer; offset++) {
@@ -52,10 +54,8 @@ public class rotateMatrix {
 
     }
 
-    private int[][] MATRIX;
-    private int N;
 
-    public rotateMatrix(int n) {
+    public RotateMatrix(int n) {
         this.N = n;
         initMatrix(n);
     }
@@ -100,7 +100,7 @@ public class rotateMatrix {
 
     public static void main(String[] args) {
 //        System.out.println(Integer.SIZE);
-        rotateMatrix ma = new rotateMatrix(6);
+        RotateMatrix ma = new RotateMatrix(6);
         ma.print();
         System.out.println("--------");
         ma.rotateWithExtraSpace();
