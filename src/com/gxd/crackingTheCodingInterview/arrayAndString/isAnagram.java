@@ -10,7 +10,7 @@ import java.nio.charset.Charset;
  *
  * 判断两个字符串是否变位词(通过字符变换位置变成对方)
  */
-public class isAnagram {
+public class IsAnagram {
 
     /**
      * new 一个长为字母表大小的数组,每个位置上的数值为字符串中对应字母出现的次数

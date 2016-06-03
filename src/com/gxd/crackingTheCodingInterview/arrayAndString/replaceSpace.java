@@ -5,7 +5,7 @@ package com.gxd.crackingTheCodingInterview.arrayAndString;
  * ���ַ����пո��滻Ϊ%20
  * todo 为什么一定要从后向前?是否可以从前向后
  */
-public class replaceSpace {
+public class ReplaceSpace {
 
 
     public static String replaceSpace(String str) {

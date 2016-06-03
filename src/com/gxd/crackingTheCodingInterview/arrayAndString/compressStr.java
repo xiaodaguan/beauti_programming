@@ -8,7 +8,7 @@ import sun.text.normalizer.UnicodeSet;
  * 若压缩后字符串没有变短,则返回原字符串
  * todo 长度检查
  */
-public class compressStr {
+public class CompressStr {
 
 
     public static String compressStr(String str) {
