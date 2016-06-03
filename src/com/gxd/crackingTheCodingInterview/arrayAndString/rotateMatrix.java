@@ -27,6 +27,8 @@ package com.gxd.crackingTheCodingInterview.arrayAndString;
  * 3. down -> right;
  * 4. left -> down;
  * 5. TOPVAL -> left;
+ * <p/>
+ * <!--感觉这个题很烧脑..虽然最终独立完成了,耗费了n张纸,n多时间-->
  */
 public class rotateMatrix {
 
