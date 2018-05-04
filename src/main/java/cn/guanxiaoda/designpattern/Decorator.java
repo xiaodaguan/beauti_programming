@@ -17,15 +17,20 @@ public class Decorator {
     public static void main(String[] args) {
         IProgrammer java = new JavaProgrammer();
         IProgrammer gxd = new AliCoder(new MeituanCoder(java));
-
+        IProgrammer bl = new AliCoder(new DecorateProgrammer(() -> out.println("full stack,")));
         gxd.skills();
         //java,
         //mtthrift,
+        //dubbo,
+        out.println("***");
+        bl.skills();
+        //full stack,
         //dubbo,
     }
 
 
 }
+
 
 class JavaProgrammer implements IProgrammer {
 
