@@ -1,4 +1,4 @@
-package cn.guanxiaoda.designpattern.factory.v3.v2;
+package cn.guanxiaoda.designpattern.factory.v3;
 
 /**
  * @author guanxiaoda
