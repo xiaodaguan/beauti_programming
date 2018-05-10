@@ -15,7 +15,9 @@ interface IProgrammer {
 public class Decorator {
 
     public static void main(String[] args) {
+        //具体类
         IProgrammer java = new JavaProgrammer();
+        // 具体装饰类(具体装饰类(具体类))
         IProgrammer gxd = new AliCoder(new MeituanCoder(java));
         IProgrammer bl = new AliCoder(new DecorateProgrammer(() -> out.println("full stack,")));
         gxd.skills();
@@ -31,7 +33,9 @@ public class Decorator {
 
 }
 
-
+/**
+ * 具体类1
+ */
 class JavaProgrammer implements IProgrammer {
 
     @Override
@@ -40,6 +44,9 @@ class JavaProgrammer implements IProgrammer {
     }
 }
 
+/**
+ * 具体类2
+ */
 class CProgrammer implements IProgrammer {
 
     @Override
@@ -48,6 +55,9 @@ class CProgrammer implements IProgrammer {
     }
 }
 
+/**
+ * 具体类3
+ */
 class PythonProgrammer implements IProgrammer {
 
     @Override
@@ -56,6 +66,9 @@ class PythonProgrammer implements IProgrammer {
     }
 }
 
+/**
+ * 装饰类
+ */
 class DecorateProgrammer implements IProgrammer {
 
     private IProgrammer programmer;
@@ -70,6 +83,9 @@ class DecorateProgrammer implements IProgrammer {
     }
 }
 
+/**
+ * 具体装饰类1
+ */
 class MeituanCoder extends DecorateProgrammer {
 
     MeituanCoder(IProgrammer programmer) {
@@ -83,6 +99,9 @@ class MeituanCoder extends DecorateProgrammer {
     }
 }
 
+/**
+ * 具体装饰类1
+ */
 class AliCoder extends DecorateProgrammer {
 
     AliCoder(IProgrammer programmer) {
