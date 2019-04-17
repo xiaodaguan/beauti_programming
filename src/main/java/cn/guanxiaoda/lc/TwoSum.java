@@ -1,4 +1,4 @@
-package cn.guanxiaoda.leetcode;
+package cn.guanxiaoda.lc;
 
 import java.util.HashMap;
 import java.util.Map;

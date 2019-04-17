@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="beauti_programming" />
+        <module name="B&amp;P" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="beauti_programming" target="8" />
+      <module name="B&amp;P" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

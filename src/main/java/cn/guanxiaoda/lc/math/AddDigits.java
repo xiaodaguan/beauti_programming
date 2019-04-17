@@ -1,4 +1,4 @@
-package cn.guanxiaoda.leetcode.Math;
+package cn.guanxiaoda.lc.math;
 
 /**
  * Created by guanxiaoda on 15/11/24.

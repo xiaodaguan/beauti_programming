@@ -1,4 +1,4 @@
-package cn.guanxiaoda.leetcode.array;
+package cn.guanxiaoda.lc.array;
 
 /**
  * Created by guanxiaoda on 15/11/18.

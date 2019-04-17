@@ -1,4 +1,4 @@
-package cn.guanxiaoda.leetcode.tree;
+package cn.guanxiaoda.lc.tree;
 
 /**
  * Created by guanxiaoda on 15/11/30.
