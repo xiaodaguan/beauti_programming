@@ -7,3 +7,6 @@
 out
 gen
 # Created by .ignore support plugin (hsz.mobi)
+src/main/java/cn/guanxiaoda/lc/leetcode-plugin/cn/all.json
+src/main/java/cn/guanxiaoda/lc/leetcode-plugin/cn/translation.json
+target
