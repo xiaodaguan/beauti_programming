@@ -35,10 +35,7 @@
 //
 
 @SuppressWarnings("ALL")
-class Solution {
-    public static void main(String[] args) {
-        System.out.println(new Solution().findCircleNum(new int[][]{{1, 0, 0, 1}, {0, 1, 1, 0}, {0, 1, 1, 1}, {1, 0, 1, 1}}));
-    }
+class Solutionpyq {
 
     public int findCircleNum(int[][] M) {
         int ret = 0;
