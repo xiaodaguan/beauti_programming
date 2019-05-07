@@ -14,8 +14,41 @@
 //解释: 区间 [1,4] 和 [4,5] 可被视为重叠区间。 
 //
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+
 @SuppressWarnings("ALL")
-class Solution {
+class Solutionhbqj {
+
     public int[][] merge(int[][] intervals) {
+        // sort
+        sortArrs(intervals);
+        List<int[]> al = new ArrayList<>();
+        for (int i = 0; i < intervals.length; i++) {
+            if (al.isEmpty() || al.get(al.size() - 1)[1] < intervals[i][0]) {
+                al.add(intervals[i]);
+            } else {
+                if (al.get(al.size() - 1)[1] < intervals[i][1]) {
+                    al.get(al.size() - 1)[1] = intervals[i][1];
+                }
+            }
+        }
+        int[][] res = new int[al.size()][2];
+        for (int i = 0; i < al.size(); i++) {
+            res[i] = al.get(i);
+        }
+        return res;
+    }
+
+    private void sortArrs(int[][] intervals) {
+        Arrays.sort(intervals, new Comparator<int[]>() {
+
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return o1[0] - o2[0];
+            }
+        });
     }
 }
